@@ -1,0 +1,286 @@
+/*CSS for website
+Organized alphabetically*/
+
+button {
+    padding: 10px;
+    background-color: #BDD8D9;
+    border:solid;
+    color: black;
+    border-radius: 10px;
+    border-color: #f5f5f5;;
+    text-align: center;
+    font-family: arial;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: #f5f5f5;
+    border-color: #BDD8D9;
+}
+
+.container {
+}
+
+#centralInner {
+    text-align: center;
+    padding: 15px;
+}
+
+#centralInnerTitle {
+    font-family: helvetica;
+    color: black;
+    font-size: 45px;
+    padding-top: 10px;
+}
+
+#centralInnerTitleSub {
+    font-family: helvetica;
+    color: black;
+    font-size: 25px;
+}
+
+#centralOuter {
+
+}
+
+#centralOuterMid {
+    padding: 10px;
+    border: solid;
+    border-radius: 10px;
+    border-color: white;
+    background: linear-gradient(to right, #BDD8D9, white);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#centralInnerMid {
+    display:flex;
+    gap: 15px;
+    justify-content: center;
+    width:auto;
+}
+
+#centralInnerMidImg {
+    flex: 0.5;
+    text-align: center;
+
+}
+
+#centralInnerMidImg img{
+    width: 200px;
+    height: 200px;
+}
+
+#centralInnerMidTxt{
+    flex: 1;
+    text-align: center;
+}
+
+#centralInnerMidTxt h3{
+    font-family: arial;
+    font-weight: normal;
+}
+
+#centralInnerMidTxt p{
+    font-family: arial;
+}
+
+#centralOuterLow {
+    width: auto;
+    height: auto;
+    padding: 30px;
+    text-align:center;
+
+}
+
+#centralInnerLow {
+    display: flex;
+    padding: 15px;
+}
+
+#centralInnerLow a{
+    text-decoration: none;
+    font-family: helvetica;
+    color: black;
+    font-size: 20px;
+}
+
+
+#centralInnerLow img{
+    height: 70%;
+    width: 35%;
+    border: solid;
+    border-color: #BDD8D9;
+    border-radius: 10px;
+}
+
+.centralInnerLow img{
+    height: 70%;
+    width: 35%;
+    border: solid;
+    border-color: #BDD8D9;
+    border-radius: 10px;
+}
+
+
+#centralInnerLowLeft {
+    flex:1;
+}
+
+
+#centralInnerLowRight {
+    flex:1;
+}
+
+#centralInnerLow button {
+    padding: 10px;
+    background-color: #BDD8D9;
+    border:solid;
+    color: black;
+    border-radius: 10px;
+    border-color: #f5f5f5;;
+    text-align: center;
+    font-family: arial;
+    font-size: 20px;
+}
+
+
+#centralInnerLow button:hover {
+    background-color: #f5f5f5;
+    border-color:  #BDD8D9;
+}
+
+#footOuter {
+    height: auto;
+    border: solid;
+    border-radius: 10px;
+    border-color: white;
+    background-color: #BDD8D9;
+}
+
+#footInner{
+    text-align: center;
+    font-family: arial;
+    color: black;
+}
+
+.innerImg{
+    width: 200px;
+    height: 195px;
+}
+
+#navInner {
+    display: flex;
+    align-items: center;
+    width:auto;
+}
+
+#navInnerBufferFlex {
+    flex: 0.13;
+}
+
+#navInnerLinks{
+    text-decoration: none;
+    text-align: center;
+    flex:1;
+    align-items:center;
+}
+
+#navInnerLinks a{
+    padding-left: 75px;
+    color: black;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: arial;
+}
+
+
+#navInnerLogo {
+    flex: 1;
+}
+
+#navInnerLogo img {
+    width: 15%;
+    height: 15%;
+}
+
+#navOuter {
+    padding: 5px;
+    background-color: #BDD8D9;
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+    width:auto;
+    height: auto;
+}
+
+.page {
+    padding: 10px;
+    border: solid;
+    border-color:#f5f5f5;
+    border-radius: 10px;
+    background-color: white;
+   }
+
+#projectOuter {
+    align-items: center;
+    width: auto;
+    height: auto;
+    text-align:center;
+}
+
+#projectInner {
+    display: flex;
+    border: solid;
+    border-width: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.projectInnerData {
+    display: flex;
+    align-items: center;
+    border: solid;
+    border-top: 0px;
+    border-width: 2px;
+    width: auto;
+    height: 200px;
+}
+
+#projectInnerFlexLeft {
+    flex: 1;
+
+}
+
+.projectInnerFlexLeft {
+    flex: 1;
+    height:auto;
+}
+
+#projectInnerFlexCenter {
+    flex: 1;
+    border: solid;
+    border-top:0px;
+    border-bottom:0px;
+    border-width: 2px;
+}
+
+.projectInnerFlexCenter {
+    flex: 1;
+    border: solid;
+    border-top:0px;
+    border-bottom:0px;
+    border-width: 2px;
+    height:auto;
+}
+
+#projectInnerFlexRight {
+    flex: 1;
+}
+
+.projectInnerFlexRight {
+    flex: 1;
+    height:auto;
+}
+
